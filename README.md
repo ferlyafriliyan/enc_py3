@@ -40,6 +40,6 @@ apt update ; apt install git curl -y ; git clone git://github.com/Livian-xyz/unf
 #### [+] Easy for Beginners !
 
 ## Find Me on :
-[![Github](https://img.shields.io/badge/Github-HTR--TECH-green?style=for-the-badge&logo=github)](https://github.com/Livian-xyz)
-[![Instagram](https://img.shields.io/badge/IG-%40tahmid.rayat-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/afriliyanferlly_shishigami)
+[![Github](https://img.shields.io/badge/Github-Livian--xyz-green?style=for-the-badge&logo=github)](https://github.com/Livian-xyz)
+[![Instagram](https://img.shields.io/badge/IG-%40afriliyanferlly_shishigami-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/afriliyanferlly_shishigami)
 [![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://m.me/freya.xyz)
