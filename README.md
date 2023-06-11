@@ -1,49 +1,30 @@
-Welcome
---------|
-![](https://media.tenor.com/iVCiM9W7cvYAAAAd/welcome.gif)
+# T Style
+### [+] Created By Livian-xyz (@***ferlyAfriliyan***)
+### [+] Disclaimer :
+***T Style is a tool to change Font & color Schemes of Termux App.This Tool is created for Educational Purpose only.All fonts are taken from [Termux Styling](https://github.com/termux/termux-styling).***
 
-<details>
-  <summary><b>More information</b></summary>
-  
-#### ★ Social Accounts ★
-<a href="https://www.facebook.com/Denventa.Xayonara.Team.UnlimitedARMY"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images.png" alt="alt text" width="75" height="75"></a>  
-# ✭ SCBF [ SIMPLE CRACK BRUTE FORCE ] - FACEBOOK
-### Multi Brute Force Facebook
-  
-### • - Made With [ Basari (Basari-ID) ]
-### • - Developer : Denventa
-
-  
-### ⇨  Fitur Login
-```
-[✯] Login Cookies   
-```
-### ⇨  Install Script Di Termux
-```python
-termux-setup-storage
-termux-change-repo
-pkg update && pkg upgrade
+## [+] Installation :
+```bash
+* apt update
+* apt install git -y
+* git clone https://github.com/Livian-xyz/tstyle
+* cd tstyle
+* bash setup.sh
 ```
 
-```python
-termux-change-repo
-rm -rf $HOME/SCBF
-pkg update && pkg upgrade -y
-pkg install python git -y
-pkg install python-pip
-git clone https://github.com/Itsmeafriliyan/SCBF
-cd SCBF
-git pull
-pip3 install -r requirements.txt
+## [~] type ***tstyle*** to run this tool.
+### Or ; Use Single Command
+
+```
+apt update && apt install git -y && git clone https://github.com/Livian-xyz/tstyle && cd tstyle && bash setup.sh && tstyle
 ```
 
-* **Untuk Jalankan Script Bisa DiKetik :(To run the script, you can type:)**
-* ```python run.py```
+## [+] Features :
+#### [+] Latest Fonts & Themes !
+#### [+] Full Offline !
+#### [+] Easy to Use !
 
-* **Untuk Stop Script Tekan : (To Stop Script Press :)**
-* ```CTRL + Z```
-
-** JANGAN LUPA KASIH BINTANG **
-
-** DON'T FORGET TO GIVE STARS **
-</details>
+## [+] Find Me on :
+[![Github](https://img.shields.io/badge/Github-Livian--xyz-green?style=for-the-badge&logo=github)](https://github.com/Livian-xyz)
+[![Instagram](https://img.shields.io/badge/IG-%40afriliyanferlly_shishigami-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/afriliyanfeerlly_shishigami)
+[![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://m.me/freya.xyz)
