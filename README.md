@@ -1,3 +1,6 @@
+Welcome
+--------|
+![](https://media.tenor.com/iVCiM9W7cvYAAAAd/welcome.gif)
 
 ### *Follow Github Saya, Dan Juga Media Social Sayaa :*
 
