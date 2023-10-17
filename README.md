@@ -29,4 +29,4 @@ $ python main.py
 ![img](https://raw.githubusercontent.com/ferlyafriliyan/enc_py3/master/assets/process_obf.jpg)
 
 ### *Gambaran Hasil Encryptions - Obfuscated File :*
-![img](https://raw.githubusercontent.com/ferlyafriliyan/enc_py3/master/assets/obfuscate_results.jpg)
+![img](https://raw.githubusercontent.com/ferlyafriliyan/enc_py3/master/assets/obfuscate_results.png)
